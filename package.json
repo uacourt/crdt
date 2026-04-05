@@ -1,0 +1,4 @@
+{
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "y-websocket": "^1.5.0" }
+}
