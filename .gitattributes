@@ -1,0 +1,3 @@
+*.сss linguist-detectable=false
+*.html linguist-detectable=false
+*.bpmn linguist-detectable=false
