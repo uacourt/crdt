@@ -32,8 +32,23 @@ Ensure you have Node.js installed in your WSL/Linux environment:
 
 ### 2. Launch the Editor
 
-
 Open `https://localhost:1234/crdt.html` in your favorite browser. To test collaboration, open it in multiple tabs side-by-side.
+
+### 3. Personal Diff
+
+![personal](img/personal.jpeg)
+
+### 4. Group Diff
+
+![group](img/group.jpeg)
+
+### 5. Editing
+
+![editing](img/editing.jpeg)
+
+### 6. Buttons
+
+![buttons](img/buttons.jpeg)
 
 ## 📁 File Structure
 
