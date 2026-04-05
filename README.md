@@ -7,11 +7,12 @@ environment, optimized for transactional legal document preparation.
 
 ## Key Features
 
-- Paper Sheet UX**: A professional A4-style document interface tailored for legal protocols.
-- Transactional Locking**: Real-time paragraph-level focus management using Yjs Awareness. Cursors of other "Judges" are visible in real-time until you enter focus mode.
-- High-Fidelity Sync**: Surgical DOM updates and non-destructive string diffing to prevent data loss and flickering.
-- Group Consensus**: A collaborative "Commit" workflow. The reconciliation logic ensures no changes are finalized until all active participants signal their approval.
-- Reconcile & Review**: A built-in diff engine that compares the current state against the initial baseline, providing a clear review before persisting to the registry.
+- Paper Sheet UX: A professional A4-style document interface tailored for legal protocols.
+- Transactional Locking: Real-time paragraph-level focus management using Yjs Awareness.
+- Cursors of other "Judges" are visible in real-time until you enter focus mode.
+- High-Fidelity Sync: Surgical DOM updates and non-destructive string diffing to prevent data loss and flickering.
+- Group Consensus: A collaborative "Commit" workflow. The reconciliation logic ensures no changes are finalized until all active participants signal their approval.
+- Reconcile & Review: A built-in diff engine that compares the current state against the initial baseline, providing a clear review before persisting to the registry.
 
 ## Architecture
 
@@ -32,7 +33,7 @@ Ensure you have Node.js installed in your WSL/Linux environment:
 
 ### 2. Launch the Editor
 
-Open `https://localhost:1234/crdt.html` in your favorite browser. To test collaboration, open it in multiple tabs side-by-side.
+Open multiple `https://localhost:1234/crdt.html` page tabs in your favorite browser.
 
 ### 3. Personal Diff
 
@@ -50,11 +51,6 @@ Open `https://localhost:1234/crdt.html` in your favorite browser. To test collab
 
 ![buttons](img/buttons.jpeg)
 
-## 📁 File Structure
+## Credits
 
-- `crdt.html`: Main entry point (View).
-- `crdt.js`: Core synchronization and transactional logic (Controller).
-- `crdt.css`: Premium layout and animations (Style).
-
----
-*Developed for the National Court Systems of Ukraine • 2026*
+* Максим Сохацький, Інформаційні Судові Системи
